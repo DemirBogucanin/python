@@ -1,0 +1,43 @@
+"""#Kreiranje skupa
+skup=set()
+skup.update([1,2,3,4,5])
+print("Konacni skup",skup)"""
+
+"""#Provera pripadnosti u skupu
+skup={1,2,3,4,5}
+broj=int(input("Unesite broj: "))
+if broj in skup:
+    print("broj se nalazi u skupu")
+else:
+    print("Ne nalazi se ")"""
+    
+"""#Unija i presek skupova
+skup1={1,2,3,4}
+skup2={3,4,5,6}
+print("Unije skupa je:", skup1 | skup2)
+print("Presek je: ",skup1 & skup2)"""
+
+"""#Brisanje elemenata iz skupa
+skup={10,20,30,40,50}
+skup.remove(30)
+print("Novi skup: ",skup)"""
+
+"""#Iteracija kroz rečnik
+recnik={"Demir":20,"godine":10}
+for kljuc,vrednost in recnik.items():
+    print(kljuc, "ima",vrednost, "godina")"""
+    
+"""#Dodavanje ključa i vrednosti u rečnik
+
+recnik={}
+recnik["ime"]="milan"
+recnik["Prezime"]="skrijelj"
+recnik["grad"]="pazar" 
+print(recnik)"""
+
+"""#Provera ključa u rečniku
+recnik={"Demir":20,"godina":10}
+if "prezime" in recnik:
+    print("prezime postoji")
+else:
+    print("Pak ne")"""
